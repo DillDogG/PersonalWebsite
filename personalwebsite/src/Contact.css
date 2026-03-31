@@ -1,0 +1,13 @@
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+}
+
+#spacer {
+  height: 88px;
+  border-top: 1px solid var(--border);
+}
