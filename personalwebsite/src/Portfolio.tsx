@@ -10,6 +10,7 @@ function Portfolio() {
 
     return (
         <>
+            <title>Dylan Yarbrough - Portfolio</title>
             <NavBar />
 
             <section id="center">

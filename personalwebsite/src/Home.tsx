@@ -10,6 +10,7 @@ function Home() {
 
     return (
         <>
+            <title>Dylan Yarbrough - Home</title>
             <NavBar />
 
             <section id="center">

@@ -5,6 +5,7 @@ function Contact() {
 
     return (
         <>
+            <title>Dylan Yarbrough - Contact</title>
             <NavBar />
 
             <section id="center">
