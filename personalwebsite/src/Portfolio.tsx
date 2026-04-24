@@ -40,7 +40,6 @@ function Portfolio() {
     useEffect(() => {
         setLoading(true);
         fetchPortItems();
-        //setLoading(false);
     }, []);
 
     const filterPortItems = async () => {
@@ -53,22 +52,22 @@ function Portfolio() {
             }
             if (!filters.is_large_scale) { // Filters out large scale projects
                 filteringItems = filteringItems.filter(item =>
-                    item.importance.toLowerCase() !== "large_scale"
+                    item.importance !== "large_scale"
                 );
             }
             if (!filters.is_major) { // Filters out major projects
                 filteringItems = filteringItems.filter(item =>
-                    item.importance.toLowerCase() !== "major"
+                    item.importance !== "major"
                 );
             }
             if (!filters.is_minor) { // Filters out minor projects
                 filteringItems = filteringItems.filter(item =>
-                    item.importance.toLowerCase() !== "minor"
+                    item.importance !== "minor"
                 );
             }
             if (!filters.is_grouped) { // Filters out grouped projects
                 filteringItems = filteringItems.filter(item =>
-                    item.importance.toLowerCase() !== "grouped"
+                    item.importance !== "grouped"
                 );
             }
             filteringItems.sort((a, b) => {
@@ -78,7 +77,7 @@ function Portfolio() {
                     "minor": 3,
                     "grouped": 4
                 };
-                return (importanceOrder[a.importance.toLowerCase()] || 999) - (importanceOrder[b.importance.toLowerCase()] || 999);
+                return (importanceOrder[a.importance] || 999) - (importanceOrder[b.importance] || 999);
             });
             console.log("Fetched items:", filteringItems, basePortItems);
             setPortItems(filteringItems);
@@ -181,6 +180,7 @@ function Portfolio() {
                         {item.url && (<a href={item.url} target="_blank">GitHub Url</a>)}
                     </div>
                 ))}
+                {portItems.length === 0 && basePortItems.length > 0 && !loading && !error && <h2 id="itemName">No portfolio items match the current filters.</h2>}
             </section>
 
             <div className="ticks"></div>
