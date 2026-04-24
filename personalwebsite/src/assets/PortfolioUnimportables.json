@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "name": "Project 1",
+      "importance": "major",
+      "description": "Description of Project 1",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg",
+      "url": "https://example.com/project1"
+    },
+    {
+      "name": "Project 2",
+      "importance": "large_scale",
+      "description": "Description of Project 2",
+      "url": "https://example.com/project2"
+    },
+    {
+      "name": "Project 3",
+      "importance": "minor",
+      "description": "Description of Project 3",
+      "image_url": "path/to/image3.jpg",
+      "url": "https://example.com/project3"
+    },
+    {
+      "name": "Project 3",
+      "importance": "minor",
+      "description": "Description of Project 3",
+      "image_url": "path/to/image3.jpg",
+      "url": "https://example.com/project3"
+    }
+  ]
+}
