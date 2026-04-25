@@ -177,7 +177,7 @@ function Portfolio() {
                             />
                         )}
                         <p>{item.description}</p>
-                        {item.url && (<a href={item.url} target="_blank">GitHub Url</a>)}
+                        {item.url && (<a href={item.url} target="_blank">Project Url</a>)}
                     </div>
                 ))}
                 {portItems.length === 0 && basePortItems.length > 0 && !loading && !error && <h2 id="itemName">No portfolio items match the current filters.</h2>}

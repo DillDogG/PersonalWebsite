@@ -1,31 +1,30 @@
 {
   "items": [
     {
-      "name": "Project 1",
-      "importance": "major",
-      "description": "Description of Project 1",
-      "image_url": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg",
-      "url": "https://example.com/project1"
-    },
-    {
-      "name": "Project 2",
+      "name": "VolunQueer's Volunteer Matching App",
       "importance": "large_scale",
-      "description": "Description of Project 2",
-      "url": "https://example.com/project2"
+      "description": "This was a large scale web application that matches users to volunteer opportunities. It also allows for in-app messaging and built in systems for event organizers to create events in the app to be discovered by users and signed up on. The application also includes filters to search for events, and simple algorithms to recommend events to fitting users. My work also included migrating the website from local systems and Supabase database systems to Amazon Web Service's Amplify and RDS database systems.",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg",
+      "url": "https://volunqueer.live"
     },
     {
-      "name": "Project 3",
-      "importance": "minor",
+      "name": "Frameworks Eyewear's Odoo Application",
+      "importance": "large_scale",
+      "description": "This was a large scale web application developed in Odoo. My work on the site involved creating custom addons on the existing website. The first addon allowed for simple large scale counting of items in a physical inventory, including the name of the employee that counted and the ability to auto-fill items that there are zero of in stock. The second addon allowed for reporting invoices to keep track of things that have been ordered. The invoices also include how much the items cost, using information from a database to make it easier to fill in, and allows for adding extra fees like shipping. The invoices also show up in one of multiple sections, depending on if they have been just placed, accepted, or received. Old invoices stay in a database to be reviewed later, and when moving them to received the items can be added to the inventory counts with one button click."
+    },
+    {
+      "name": "DragonFiAR's Ethereal Prime",
+      "importance": "large_scale",
       "description": "Description of Project 3",
       "image_url": "path/to/image3.jpg",
       "url": "https://example.com/project3"
     },
     {
-      "name": "Project 3",
-      "importance": "minor",
-      "description": "Description of Project 3",
-      "image_url": "path/to/image3.jpg",
-      "url": "https://example.com/project3"
+      "name": "'Quality Assurance' Game",
+      "importance": "major",
+      "description": "This was a game developed for a 72 hour game jam with the theme 'It's not a bug, it's a feature.' The game is built around playing the same level multiple times as there are more and more 'bugs' that make progressing through the level more difficult. These include adding/changing enemies, moving the exit of the level further and further, or messing up the terrain. The game is fully downloadable and free to play on the Project Link.",
+      "image_url": "https://img.itch.zone/aW1nLzIyNjgyMzk3LnBuZw==/347x500/nzsZG3.png",
+      "url": "https://dilldoggaming.itch.io/quality-assurance"
     }
   ]
 }
